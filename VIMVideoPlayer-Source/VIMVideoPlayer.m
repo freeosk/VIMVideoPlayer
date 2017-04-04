@@ -83,8 +83,6 @@ static void *VideoPlayer_PlayerItemLoadedTimeRangesContext = &VideoPlayer_Player
         [self setupPlayer];
         
         [self addPlayerObservers];
-
-        [self setupAudioSession];
     }
     
     return self;

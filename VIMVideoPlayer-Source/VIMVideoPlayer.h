@@ -56,6 +56,8 @@
 - (void)setPlayerItem:(AVPlayerItem *)playerItem;
 - (void)setAsset:(AVAsset *)asset;
 
+- (void)setupAudioSession;
+
 // Playback
 
 - (void)play;
